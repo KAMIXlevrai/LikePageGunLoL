@@ -1,4 +1,3 @@
-/* From Uiverse.io by WAIOKYERE */ 
 ul {
     list-style: none;
   }
@@ -82,6 +81,6 @@ ul {
   }
   .example-2 .icon-content a[data-social="steam"] .filled,
   .example-2 .icon-content a[data-social="steam"] ~ .tooltip {
-    background-color: #0088cc;
+    background-color: #005580;
   }
   
