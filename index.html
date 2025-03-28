@@ -10,7 +10,15 @@
 
   <meta name="description" content="🔥- NascaR Public Page -🔥<br>🤙- Lowrider Style -🤙"/>
 
-  <meta name="author" content="NascaR"/>
+  <meta name="author" content="@ℕ𝕒𝕤𝕔𝕒ℝ | Speed Guy">
+  <meta property="og:title" content="@ℕ𝕒𝕤𝕔𝕒ℝ | Speed Guy">
+  <meta property="og:description" content="🔥- NascaR Public Page -🔥<br>🤙- Lowrider Style -🤙">
+  <meta property="og:image" content="https://i.ebayimg.com/images/g/UvAAAOSwFORnH~Ua/s-l1200.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="@ℕ𝕒𝕤𝕔𝕒ℝ | Speed Guy">
+  <meta name="twitter:description" content="🔥- NascaR Public Page -🔥<br>🤙- Lowrider Style -🤙">
+  <meta name="twitter:image" content="https://i.ebayimg.com/images/g/UvAAAOSwFORnH~Ua/s-l1200.jpg">
 
   <meta name="keywords" content="NascaR Public Page"/>
 
@@ -21,6 +29,7 @@
   <link rel="stylesheet" href="./css/controlvolume.css">
   <link rel="stylesheet" href="./css/loadoverlay.css">
   <link rel="stylesheet" href="./css/fire.css">
+  <link rel="stylesheet" href="./css/newoverlay.css">
 </head>
 <body>
 <div id="globalcontent">  
@@ -59,6 +68,7 @@
         Votre navigateur ne supporte pas la vidéo en arrière-plan.
     </video>
     <div class="container">
+        <button class="toolbutton" id="openModal">i</button>
         <img src="./img/pdp.png" class="pdp">
         <h1 id="titlepage">ℕ𝕒𝕤𝕔𝕒ℝ</h1>
         <p>"Le pilotage est ancré dans les gènes."</p>
@@ -128,14 +138,13 @@
       </g>
   </svg>
 </label>
-
-
-
-
-
-
-
-    </div>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <p class="textnewoverlay">🍃 𝕷𝖔𝖜𝕽𝖎𝖉𝖊𝖗 𝖁𝖎𝖇𝖊 🍃</p>
+  </div>
+</div>
+</div>
 
 
     
@@ -144,6 +153,7 @@
   </audio>
   
   <script src="./java/script.js"></script>
+  <script src="./java/newoverlay.js"></script>
 </div>  
 </body>
 </html>
