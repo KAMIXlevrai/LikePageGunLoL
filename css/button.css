@@ -13,7 +13,7 @@ ul {
   }
   .example-2 .icon-content .tooltip {
     position: absolute;
-    top: -30px;
+    top: -20px;
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
@@ -27,7 +27,7 @@ ul {
   .example-2 .icon-content:hover .tooltip {
     opacity: 1;
     visibility: visible;
-    top: -50px;
+    top: -35px;
   }
   .example-2 .icon-content a {
     position: relative;
@@ -39,7 +39,7 @@ ul {
     height: 50px;
     border-radius: 20%;
     color: #4d4d4d;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41);
     transition: all 0.3s ease-in-out;
   }
   .example-2 .icon-content a:hover {
@@ -48,7 +48,6 @@ ul {
   .example-2 .icon-content a img {
     position: relative;
     z-index: 1;
-    width: 30px;
     height: 30px;
   }
   .example-2 .icon-content a:hover {
