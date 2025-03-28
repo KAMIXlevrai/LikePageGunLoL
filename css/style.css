@@ -32,7 +32,7 @@ video {
     box-shadow: 0 0 25px #ff9100;
     animation: fadeIn 1.5s ease-in-out;
 }
-h1 {
+#titlepage {
     font-size: 3em;
     color: #e38f22;
     animation: glow 1.5s infinite alternate;
